@@ -16,6 +16,7 @@ entrada.pack(pady=5)
 def mostrar_mensaje():
     texto = entrada.get()
     etiqueta.config(text=f"Hola, {texto}!")  # Cambia el texto de la etiqueta
+     ventana.config(bg="lightblue")
 
 # Crear un botón
 boton = tk.Button(ventana, text="Saludar", command=mostrar_mensaje)
